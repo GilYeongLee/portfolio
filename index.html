@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 이길영 - 포트폴리오 </title>
+
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/fv.png" type="image/x-icon">
+
+    <script src="./js/jquery-1.11.3.js"></script>
+    <!-- 제이쿼리의 animate의 제약사항을 해결해주는 TweenMax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="./js/main.js"></script>
+</head> 
+<body>
+    <!-- #wrap>header+section#profile+section#skill+section#portfolio+section#etc_main+footer+#popup -->
+    <div id="wrap">
+        <!-- header -->
+        <header>
+            <!-- .header_main>.logo.fl>h1>a>span.logoImg -->
+            <div class="header_main">
+                <!-- logo -->
+                <div class="logo fl">
+                    <h1><a href="index.html"><span class="logoImg"></span>
+                    GILYEONG <span class="pf">PORTFOLIO</span>
+                    </a></h1>
+                </div>
+                <!-- menu -->
+                <!-- ul.nav.fr>li.fl{About} -->
+                <ul class="nav fr">
+                    <li class="fl">[&nbsp;&nbsp;ABOUT&nbsp;&nbsp;]</li>
+                    <li class="fl">[&nbsp;&nbsp;PORTFOLIO&nbsp;&nbsp;]</li>
+                    <li class="fl">[&nbsp;&nbsp;OTHER DESIGN&nbsp;&nbsp;]</li>
+                </ul>
+            </div>
+        </header>
+        <section id="profile">
+           <!-- h2.blind{profile} -->
+           <h2 class="blind">profile</h2>
+           <!-- 사진 + 소개 -->
+           <!-- .profile_main>.p_left.fl -->
+           <div class="profile_main">
+               <!-- 사진 -->
+               <div class="p_left fl">
+                   <h2 class="img blind">사진</h2>
+               </div>
+               <!-- 소개 -->
+               <!-- .p_right.fr>dl>dt+dd -->
+               <div class="p_right fr">
+                   <dl>
+                       <dt> WEB DESIGN <br />
+                        <span>&amp; WEB DEVELOPER </span>
+                       </dt>
+
+                       <dd>
+                        <span class="intro">
+                            안녕하세요?
+                            웹퍼블리셔 이길영입니다. 
+                        </span>
+                        <br />
+                        <br />
+                        사용자로 하여금 편의성과 만족도가 높은 웹페이지를 
+                        제작하는것이 저의 목표입니다. <br />
+                        부족한 부분은 배워나가며, 
+                        <span>소통을 중시하는 마음가짐</span>으로 노력하겠습니다. 
+                        <br />
+                        트렌드에 맞춰 쉬지 않고 노력하는 웹퍼블리셔가 되겠습니다.
+
+                       </dd>
+                   </dl>
+               </div>
+           </div>
+        </section>
+        <section id="skill">
+            <!-- 연락처, sns, 자격증,사용툴, 스킬  -->
+            <div class="skill_main">
+                <h2>알아보기</h2>
+                <h3>ABOUT</h3>
+                <!-- about -->
+                <div class="box about fl"><i class="xi-user-plus xi-2x"></i>
+                        <dl>
+                            <dt>ABOUT</dt>
+                            <dd>INFP</dd>
+                            <dd>1997-01-31</dd>
+                            <dd>수원시 영통구 망포동</dd>
+                            <dd>웹디자인/웹퍼블리셔 UIUX 양성과정</dd>
+                        </dl>
+                 </div>
+                <!-- CONTACTS -->
+                <div class="box contacts fl"><i class="xi-comment xi-2x"></i>
+                        <dl>
+                            <dt>CONTACTS</dt>
+                            <dd><i class="xi-call xi-2x"></i>010-6398-7346</dd>
+                            <dd><i class="xi-mail xi-2x"></i>4scv_tae@naver.com</dd>
+                            <dd><i class="xi-kakaotalk xi-2x"></i>@gil0</dd>
+                        </dl>
+                 </div>
+                <!-- licenses -->
+                <div class="box licenses fl"><i class="xi-book xi-2x"></i>
+                        <dl>
+                            <dt>LICENSES</dt>
+                            <dd>웹디자인기능사</dd>
+                            <dd>컴퓨터활용능력 2급</dd>
+                            <dd>운전면허 1종 보통</dd>
+                        </dl>
+                 </div>
+                <!-- tools -->
+                <div class="box tools fl"><i class="xi-desktop xi-2x"></i>
+                        <dl>
+                            <dt>TOOLS</dt>
+                            <dd>Adobe Photoshop</dd>
+                            <dd>Adobe Illustrator</dd>
+                            <dd>Adobe Indesign</dd>
+                            <dd>Adobe XD</dd>
+                            <dd>Zeplin</dd>
+                            <dd>Visual Studio Code</dd>
+                        </dl>
+                 </div>
+                <!-- skills -->
+                <div class="box skills fl"><i class="xi-code xi-2x"></i>
+                        <dl>                            
+                            <dt>SKILLS</dt>
+                            <dd>HTML5</dd>
+                            <dd>CSS3</dd>
+                            <dd>JavaScript</dd>
+                            <dd>jQuery</dd>
+                            <dd>Presentation</dd>
+                        </dl>
+                 </div>
+
+            </div>
+        </section>
+        <section id="portfolio">
+            <h2>포트폴리오</h2>
+            <h3>PORTFOLIO</h3>
+            <div class="portfolio_main">
+                <!-- 한화케미칼 : 이미지 왼 -->
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <h4>01. 한화케미칼</h4>
+                        <h5>HANWHA <br /> CEHMICAL</h5>
+                        <p>
+                            WEB CODING <br />
+                            제작 : 메인페이지 <br /><br /><br />
+                            리뉴얼된 한화케마칼 메인페이지를 직접 코딩하여 <br />
+                            웹으로 구현하였습니다.
+                        </p>
+                        <p class="site_btn">
+                            <a href="https://gilyeonglee.github.io/hanwha/" target="_blank">WEBSITE</a>
+                        </p>
+                    </dd>
+                </dl>
+                
+                <!-- 에버랜드 : 이미지 오-->
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <h4>02. 에버랜드</h4>
+                        <h5>EverLand</h5>
+                        <p>
+                            WEB CODING <br />
+                            제작 : 메인페이지 <br /><br /><br />
+                            에버랜드 메인페이지를 디자인하여 <br />
+                            웹으로 구현하였습니다.
+                        </p>
+                        <p class="site_btn">
+                            <a href="https://github.com/GilYeongLee/ever.git" target="_blank">DOWN</a>
+                        </p>
+                    </dd>
+                </dl>
+                <!-- 라인 : 이미지 왼 -->
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <h4>03.</h4>
+                        <h5>Line</h5>
+                        <p>
+                            WEB CODING <br />
+                            제작 : 메인페이지 <br /><br /><br />
+                            라인 메인페이지를 직접 코딩하여 <br />
+                            웹으로 구현하였습니다.
+                        </p>
+                        <p class="site_btn">
+                            <a href="https://gilyeonglee.github.io/line/" target="_blank">WEBSITE</a>
+                        </p>
+                    </dd>
+                </dl>
+                <!-- 스타벅스 : 이미지 오 -->
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <h4>04.스타벅스</h4>
+                        <h5>StarBucks</h5>
+                        <p>
+                            WEB CODING <br />
+                            제작 : 메인페이지 <br /><br /><br />
+                            스타벅스 메인페이지를 WIX로 디자인하여 <br />
+                            웹으로 구현하였습니다.
+                        </p>
+                        <p class="site_btn">
+                            <a href="https://4scv133.wixsite.com/food" target="_blank">WEBSITE</a>
+                        </p>
+                    </dd>
+                </dl>
+                <!-- 앱 : 이미지 왼 -->
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <h4>05. 앱</h4>
+                        <h5>App</h5>
+                        <p>
+                            WEB CODING <br />
+                            제작 : 앱 <br /><br />
+                            APP을 디자인하였습니다 <br />
+                           
+                        </p>
+                        <p class="site_btn">
+                            <a href="https://gilyeonglee.github.io/down/app/" target="_blank">DOWN</a>
+                        </p>
+                    </dd>
+                </dl>
+                <!-- 애니메이션 : 이미지 오 (PSD) -->
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <h4>06. 애니메이션</h4>
+                        <h5>Animation</h5>
+                        <p>
+                            WEB CODING <br />
+                            제작 : 애니메이션 <br /><br /><br />
+                            애니메이션을 제작하여 목업에 넣어봤습니다
+                        </p>
+                        <p class="site_btn">
+                            <a href="https://github.com/GilYeongLee/app.git" target="_blank">MockUp</a>
+                        </p>
+                    </dd>
+                </dl>
+            </div>
+        </section>
+        <section id="etc">
+            <!-- 기타디자인 -->
+            <h2>기타디자인</h2>
+            <h3>OTHER DESIGN</h3>
+            <div class="etc_main">
+                <!-- 1 -->                
+                <dl class="etc_1 fl">
+                    <dt>
+                        <p><strong>자세히보기</strong></p>
+                        <i></i>
+                    </dt>
+                    <dd>
+                       <span>이모티콘</span> <br />
+                       이모티콘 스케치 및 배색
+                    </dd>
+                </dl>
+
+                <!-- 2 -->                
+                <dl class="etc_2 fl">
+                    <dt>
+                        <p><strong>자세히보기</strong></p>
+                        <i></i>
+                    </dt>
+                    <dd>
+                       <span>앱</span> <br />
+                       반응형 PSD 제작
+                    </dd>
+                </dl>
+
+                <!-- 3 -->                
+                <dl class="etc_3 fl">
+                    <dt>
+                        <p><strong>자세히보기</strong></p>
+                        <i></i>
+                    </dt>
+                    <dd>
+                       <span>이벤트 페이지</span> <br />
+                       이벤트 페이지 응용 및 목업
+                    </dd>
+                </dl>
+
+                <!-- 4 -->                
+                <dl class="etc_4 fl">
+                    <dt>
+                        <p><strong>자세히보기</strong></p>
+                        <i></i>
+                    </dt>
+                    <dd>
+                       <span>애니메이션</span> <br />
+                       애니메이션 제작 및 목업
+                    </dd>
+                </dl>
+
+                <!-- 5 -->                
+                <dl class="etc_5 fl">
+                    <dt>
+                        <p><strong>자세히보기</strong></p>
+                        <i></i>
+                    </dt>
+                    <dd>
+                       <span>브랜딩리뉴얼</span> <br />
+                       브랜드로고 리뉴얼 및 목업
+                    </dd>
+                </dl>
+
+            </div>
+        </section>
+
+        <footer>
+           <div class="footer_main">
+               <!-- btn -->
+               <img src="./images/btn_top.png" alt="최상단으로 가기 버튼"
+                class="btn_top">
+               <!-- phone.mail -->
+               <!-- ul.sns>li.fl*3>a -->
+               <ul class="sns">
+                   <li class="fl"><a href="tel:010-6398-7346"><i class="xi-mobile"></i></a></li>
+                   <li class="fl"><a href="4scv_tae@naver.com"><i class="xi-naver"></i></a></li>
+                   <li class="fl"><a href="4scv133@gmail.com"><i class="xi-gmail"></i></a></li>
+               </ul>
+               <!-- copyright -->
+               <div class="copy">
+                   <p>
+                       Copyright &copy; 2021 GilYeong. All right reserved.
+                   </p>
+               </div>
+            </div>
+        </footer>
+        <!-- 기타디자인 박스슬라이드 팝업 -->
+        
+		
+        <div id="popup">
+            <div class="popup_main">
+                <!-- popup bg -->
+				
+				
+                <div class="bg">
+                    <p class="close">
+                        팝업창을 닫으시려면 아무 곳이나 클릭하세요.
+                    </p>
+                </div>
+				
+				
+				
+                <!-- popup1 -->
+                <div id="popup1">
+                    <!-- 이전버튼 -->
+                    <button class="prev" title="이전버튼">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/emo/emo1.png" alt="이모티콘 배색1"></li>
+                        <li class="popImg fl"><img src="./images/emo/emo2.png" alt="이모티콘 배색2"></li>
+                        <li class="popImg fl"><img src="./images/emo/emo3.png" alt="이모티콘 목업1"></li>
+
+                    </ul>
+                    <!-- 다음버튼 -->
+                    <button class="next" title="다음버튼">&#62;</button>
+                </div>
+				
+				
+				
+				
+				
+                <!-- popup2 -->
+                <div id="popup2">
+                    <!-- 이전버튼 -->
+                    <button class="prev" title="이전버튼">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/app/app1.png" alt="app1"></li>
+                        <li class="popImg fl"><img src="./images/app/app2.png" alt="app2"></li>
+                        <li class="popImg fl"><img src="./images/app/app3.png" alt="app3"></li>
+                    </ul>
+                    <!-- 다음버튼 -->
+                    <button class="next" title="다음버튼">&#62;</button>
+                </div>
+                <!-- popup3 -->
+                <div id="popup3">
+                    <!-- 이전버튼 -->
+                    <button class="prev" title="이전버튼">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/ppt/eve1.png" alt="eve1"></li>
+                        <li class="popImg fl"><img src="./images/ppt/eve2.png" alt="eve2"></li>
+                        <li class="popImg fl"><img src="./images/ppt/eve3.png" alt="eve3"></li>
+
+                    </ul>
+                    <!-- 다음버튼 -->
+                    <button class="next" title="다음버튼">&#62;</button>
+                </div>
+                <!-- popup4 -->
+                <div id="popup4">
+                    <!-- 이전버튼 -->
+                    <button class="prev" title="이전버튼">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/drawing/animation1.png" alt="animation1"></li>
+                        <li class="popImg fl"><img src="./images/drawing/animation2.png" alt="animation2"></li>
+                        <li class="popImg fl"><img src="./images/drawing/animation3.png" alt="animation3"></li>
+                    </ul>
+                    <!-- 다음버튼 -->
+                    <button class="next" title="다음버튼">&#62;</button>
+                </div>
+				
+				
+				
+                <!-- popup5 -->
+                <div id="popup5">
+                    <!-- 이전버튼 -->
+                    <button class="prev" title="이전버튼">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/brand/bra1.png" alt="branding1"></li>
+                        <li class="popImg fl"><img src="./images/brand/bra2.png" alt="branding2"></li>
+                        <li class="popImg fl"><img src="./images/brand/bra3.png" alt="branding3"></li>
+
+                    </ul>
+                    <!-- 다음버튼 -->
+                    <button class="next" title="다음버튼">&#62;</button>
+                </div>
+
+            </div>
+        </div>
+		
+    </div>
+</body>
+</html>
